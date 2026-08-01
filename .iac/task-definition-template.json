@@ -30,7 +30,8 @@
         "options": {
           "awslogs-group": "/ecs/${TASK_FAMILY}",
           "awslogs-region": "${AWS_REGION}",
-          "awslogs-stream-prefix": "ecs"
+          "awslogs-stream-prefix": "ecs",
+          "awslogs-create-group": "true"
         }
       }
     }
